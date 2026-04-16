@@ -1,9 +1,9 @@
-name: 客户情报监控（免费版）
+name: 客户情报监控
 
 on:
   schedule:
     # 每天9点执行 (UTC时间1点，北京时间9点)
-    - cron: '0 4 * * *'
+    - cron: '0 10 * * *'
   workflow_dispatch:  # 支持手动触发
 
 jobs:
