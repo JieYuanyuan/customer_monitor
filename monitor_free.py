@@ -137,7 +137,7 @@ class FreeCustomerMonitor:
         
         content += """
 ---
-📎 数据来源：RSS新闻监控 | 💰 完全免费
+📎 数据来源：RSS新闻监控
 """
         return content
     
@@ -147,7 +147,7 @@ class FreeCustomerMonitor:
         """
         today = datetime.now().strftime("%Y年%m月%d日")
         print(f"\n{'='*60}")
-        print(f"客户情报监控（免费版）- {today}")
+        print(f"客户情报监控- {today}")
         print(f"{'='*60}\n")
         
         # 获取新闻
